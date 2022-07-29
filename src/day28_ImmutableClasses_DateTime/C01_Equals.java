@@ -1,4 +1,4 @@
-package day28_ImmutableClasses;
+package day28_ImmutableClasses_DateTime;
 
 public class C01_Equals {
     public static void main(String[] args) {
