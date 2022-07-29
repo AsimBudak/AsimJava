@@ -3,9 +3,13 @@ package Projects;
 import java.util.Scanner;
 
 public class JavaAirlines {
+    public JavaAirlines(String b, String tek, int i) {
+
+    }
+
     public static void main(String[] args) {
 
-        projects.P03_UcusProjesi.Yolcu ayhan=new projects.P03_UcusProjesi.Yolcu("B","tek",33);
+     //  JavaAirlines.Yolcu.Yolcu ayhan=new JavaAirlines("B","tek",33);
         Scanner scan = new Scanner(System.in);
         System.out.print("javaAirlines'a hos geldin AGAM..\n B C D rotasından birini seciniz : ");
         String city = scan.next().toUpperCase();
